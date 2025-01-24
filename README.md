@@ -22,7 +22,7 @@ npm run dev
 Obs: Ao importarmos um componente, se tentarmos utilizá-lo várias vezes em sequência, o mesmo deve estar dentro de alguma tag:
 
 ```
-import Post from './assets/Post'
+import {Post} from './Post';
 function App() {
 
   return (
@@ -37,4 +37,16 @@ function App() {
 
 export default App
 
+```
+
+<h1>Estilização</h1>
+Criar arquivos css com .module, e para importá-lo, utilizar o seguinte comando:
+
+```
+import styles from './App.module.css';
+```
+E para utilizar um de seus estilos, fazer da seguinte forma:
+
+```
+<div className={styles.nomeClasseEstiloCriada}>
 ```
