@@ -50,3 +50,9 @@ E para utilizar um de seus estilos, fazer da seguinte forma:
 ```
 <div className={styles.nomeClasseEstiloCriada}>
 ```
+
+<h1>Biblioteca de data date-fns JS</h1>
+
+```
+npm i date-fns
+```
